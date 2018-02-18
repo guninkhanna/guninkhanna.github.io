@@ -1277,18 +1277,24 @@ body.is-loading #bg:before {
 
 @media screen and (max-width: 1680px) {
   #wrapper {
+  /* #particles-js { */
+    
     padding: 3rem 2rem;
   }
 }
 
 @media screen and (max-width: 736px) {
   #wrapper {
+  /* #particles-js { */
+    
     padding: 2rem 1rem;
   }
 }
 
 @media screen and (max-width: 480px) {
   #wrapper {
+  /* #particles-js { */
+    
     padding: 1rem;
   }
 }
@@ -1758,11 +1764,33 @@ body.is-loading #footer {
 #particles-js{
   width: 100%;
   height: 100%;
-  background-color: #b61924;
+  /* background-color: #b61924; */
+  background-color: #ffffff;  
   background-image: url('');
   background-size: cover;
   background-position: 50% 50%;
   background-repeat: no-repeat;
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  -moz-flex-direction: column;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -moz-align-items: center;
+  -webkit-align-items: center;
+  -ms-align-items: center;
+  align-items: center;
+  -moz-justify-content: space-between;
+  -webkit-justify-content: space-between;
+  -ms-justify-content: space-between;
+  justify-content: space-between;
+  position: absolute;
+  min-height: 100vh;
+  width: 100%;
+  padding: 4rem 2rem;
+  z-index: 3;
 }
 
 #particles{
@@ -1775,3 +1803,7 @@ body.is-loading #footer {
   position: relative;
 
 } */
+#particles-js:before {
+  content: "";
+  display: block;
+}
