@@ -367,7 +367,6 @@
 		color: #000000;
 	}
 
-
 /* Wrapper */
 
 	#wrapper2 > * > .inner {
@@ -378,43 +377,42 @@
 	}
 
 		@media screen and (max-width: 736px) {
-
+		
 			#wrapper2 > * > .inner {
 				padding: 0 1.25em;
-		margin-top: 10rem;
+				margin-top: 10rem;
 				
 			}
-
 		}
 
-		#s {
-			box-shadow: 5px 10px teal !important;
-			/* background-color: #f8ffff; */
-			background-color: #f8fcff;
-		}
-		#s h2{
+	#s {
+		box-shadow: 5px 10px teal !important;
+		/* background-color: #f8ffff; */
+		background-color: #f8fcff;
+	}
+
+	#s h2{
 	color: #000000;
 	padding: 1rem;
 	letter-spacing: 0.25rem;
-	
-		}
+	}
 
-		#s p{
-			padding: 1rem;
-			/* text-align: center; */
-			/* color: #000000; */
-				}
+	#s p{
+		padding: 1rem;
+		/* text-align: center; */
+		/* color: #000000; */
+			}
 
 
-				.content > hr{
-					/* padding: 1rem; */
-					border: 1px solid;
-					margin: 0;
-					padding: 0;
+	.content > hr{
+		/* padding: 1rem; */
+		border: 1px solid;
+		margin: 0;
+		padding: 0;
 
-					/* text-align: center; */
-					/* color: #000000; */
-						}
+		/* text-align: center; */
+		/* color: #000000; */
+			}
 
 
 	#projects > h2 {
@@ -429,15 +427,15 @@
 		box-shadow: 5px 10px #9496ff !important;
 		background-color: ghostwhite;
 	}
-	#sr h2{
-color: #000000;
-padding: 1rem;
-letter-spacing: 0.25rem;
 
+	#sr h2{
+	color: #000000;
+	padding: 1rem;
+	letter-spacing: 0.25rem;
 	}
 
 	#sr p{
 		padding: 1rem;
 		/* text-align: center; */
 		/* color: #000000; */
-			}
+	}
