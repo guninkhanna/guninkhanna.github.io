@@ -286,7 +286,7 @@
 			opacity: 1;
 		}
 
-		@media screen and (max-width: 1400px) {
+		@media screen and (max-width: 1500px) {
 
 			.tiles {
 				margin: 1.25em 0 0 -1.25em;
