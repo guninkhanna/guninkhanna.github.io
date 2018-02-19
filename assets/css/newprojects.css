@@ -76,6 +76,7 @@
 		flex-wrap: wrap;
 		postiion: relative;
 		margin: -2.5em 0 0 -2.5em;
+		/* box-shadow: #000000 !important; */
 	}
 
 		.tiles article {
@@ -86,6 +87,8 @@
 			position: relative;
 			width: calc(33.33333% - 2.5em);
 			margin: 2.5em 0 0 2.5em;
+		/* box-shadow: #000000 !important; */
+			
 		}
 
 			.tiles article > .image {
@@ -98,11 +101,15 @@
 				width: 100%;
 				border-radius: 4px;
 				overflow: hidden;
+		/* box-shadow: #000000 !important; */
+				
 			}
 
 				.tiles article > .image img {
 					display: block;
 					width: 100%;
+		/* box-shadow: #000000 !important; */
+					
 				}
 
 				.tiles article > .image:before {
@@ -224,7 +231,10 @@
 			.tiles article.style3 > .image:before {
 				background-color: #7bd0c1;
 			}
-
+			.tiles article.s> .image:before {
+				/* background-color: #ffffff; */
+				/* box-shadow: #000000; */
+			}
 			.tiles article.style4 > .image:before {
 				background-color: #c75b9b;
 			}
@@ -245,12 +255,12 @@
 			}
 
 				body:not(.is-touch) .tiles article:hover > .image:before {
-					background-color: #333333;
-					opacity: 0.35;
+					background-color: #ffffff;
+					opacity: 0;
 				}
 
 				body:not(.is-touch) .tiles article:hover > .image:after {
-					opacity: 0;
+					opacity: 1;
 				}
 
 			body:not(.is-touch) .tiles article:hover .content {
@@ -260,6 +270,7 @@
 
 		* + .tiles {
 			margin-top: 2em;
+			/* box-shadow: #000000 !important; */
 		}
 
 		body.is-loading .tiles article {
@@ -324,12 +335,15 @@
 		@media screen and (max-width: 480px) {
 
 			.tiles {
-				margin: 0;
+				margin: 1.25rem;
 			}
 
 				.tiles article {
-					width: 100%;
-					margin: 1.25em 0 0 0;
+					width: calc(100% - 2rem);
+					max-width: 70%;
+					margin: 0 auto;
+					padding: 2rem 5rem 0 5rem;
+					/* overflow: hidden; */
 				}
 
 		}
@@ -369,4 +383,9 @@
 				
 			}
 
+		}
+
+		#s {
+			box-shadow: 5px 10px red !important;
+			background-color: aliceblue;
 		}
