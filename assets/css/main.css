@@ -1338,7 +1338,7 @@ body.is-loading #bg:before {
   max-width: 100%;
   text-align: center;
   /* margin-bottom: 25rem; */
-  margin: 3rem 0 20rem;
+  margin: 1rem 0 2rem;
 }
 
 #header > * {
