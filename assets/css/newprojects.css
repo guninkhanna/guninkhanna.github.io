@@ -332,7 +332,7 @@
 
 		}
 
-		@media screen and (max-width: 480px) {
+		@media screen and (max-width: 540px) {
 
 			.tiles {
 				margin: 1.25rem;
@@ -387,7 +387,8 @@
 
 		#s {
 			box-shadow: 5px 10px teal !important;
-			background-color: ghostwhite;
+			/* background-color: #f8ffff; */
+			background-color: #f8fcff;
 		}
 		#s h2{
 	color: #000000;
@@ -423,7 +424,7 @@
 
 
 	#sr {
-		box-shadow: 5px 10px blue !important;
+		box-shadow: 5px 10px #9496ff !important;
 		background-color: ghostwhite;
 	}
 	#sr h2{
