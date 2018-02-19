@@ -293,8 +293,8 @@
 			}
 
 				.tiles article {
-					width: calc(33.33333% - 1.25em);
-					margin: 1.25em 0 0 1.25em;
+					width: calc(40% - 1.25em);
+					margin: 5rem 0 0 5rem;
 				}
 
 		}
@@ -386,6 +386,55 @@
 		}
 
 		#s {
-			box-shadow: 5px 10px red !important;
-			background-color: aliceblue;
+			box-shadow: 5px 10px teal !important;
+			background-color: ghostwhite;
 		}
+		#s h2{
+	color: #000000;
+	padding: 1rem;
+	letter-spacing: 0.25rem;
+	
+		}
+
+		#s p{
+			padding: 1rem;
+			/* text-align: center; */
+			/* color: #000000; */
+				}
+
+
+				.content > hr{
+					/* padding: 1rem; */
+					border: 1px solid;
+					margin: 0;
+					padding: 0;
+
+					/* text-align: center; */
+					/* color: #000000; */
+						}
+
+
+	#projects > h2 {
+		color: #000000;
+		font-weight: 600;
+		text-align: center;
+	}
+		
+
+
+	#sr {
+		box-shadow: 5px 10px blue !important;
+		background-color: ghostwhite;
+	}
+	#sr h2{
+color: #000000;
+padding: 1rem;
+letter-spacing: 0.25rem;
+
+	}
+
+	#sr p{
+		padding: 1rem;
+		/* text-align: center; */
+		/* color: #000000; */
+			}
