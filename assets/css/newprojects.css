@@ -1,4 +1,32 @@
-	
+
+.tiles article > .image .img__description_layer {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+	background: rgba(27, 31, 34, 0.95);
+  /* background: rgba(24, 23, 23, 0.9); */
+	color: #fff;
+	backface-visibility: hidden;
+  opacity: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: opacity .2s, visibility .2s;
+}
+.tiles article > .image .img__description {
+  transition: .2s;
+  transform: translateY(1em);
+}
+
+.tiles article > .image:hover .img__description {
+  transform: translateY(0);
+}
+
+.tiles article > .image:hover .img__description_layer {
+	opacity: 1;
+}
 /* Image */
 
 	.image {
@@ -488,7 +516,7 @@ menu {
 	max-width: 80%;
 	height: 100%;
 	-webkit-overflow-scrolling: touch;
-	background: #585858;
+	background: rgba(27, 31, 34, 1);
 	color: #ffffff;
 	cursor: default;
 	visibility: hidden;
