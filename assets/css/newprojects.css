@@ -20,11 +20,17 @@
   transform: translateY(1em);
 }
 
-.tiles article > .image:hover .img__description {
+.tiles article > .image:hover  .img__description {
+  transform: translateY(0);
+}
+.tiles article > .image:focus  .img__description {
   transform: translateY(0);
 }
 
 .tiles article > .image:hover .img__description_layer {
+	opacity: 1;
+}
+.tiles article > .image:focus .img__description_layer {
 	opacity: 1;
 }
 /* Image */
