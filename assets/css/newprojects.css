@@ -1,4 +1,8 @@
 
+.link-in-p {
+	color: white; 
+	border-bottom: dotted 1px white;
+}
 .tiles article > .image .img__description_layer {
   position: absolute;
   top: 0;
