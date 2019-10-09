@@ -469,7 +469,8 @@
 	}
 
 	#sr {
-		box-shadow: 5px 10px #9496ff !important;
+		/* box-shadow: 5px 10px #9496ff !important; */
+		box-shadow: 5px 10px rgb(166, 180, 180) !important;
 		background-color: ghostwhite;
 	}
 
