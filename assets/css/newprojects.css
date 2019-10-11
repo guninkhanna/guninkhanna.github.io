@@ -461,10 +461,10 @@
 		border: 2px solid;
 		width: 360px;
 	}
-
-	@media screen and (max-width: 1020px) {
+	/* min-width is the width at which the custom style applies */
+	@media screen and (min-width: 1020px) {
 		#projects > h2 {
-			width: 500px;	
+			width: 450px;	
 		}
 	}
 
