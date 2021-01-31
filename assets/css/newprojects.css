@@ -304,6 +304,8 @@
 
 		* + .tiles {
 			margin-top: 2em;
+			margin-left: 1rem;
+			margin-right: 2rem;
 			/* box-shadow: #000000 !important; */
 		}
 
